@@ -20,7 +20,7 @@ public class HomeController extends Controller {
         return ok(index.render("Your new application is ready."));
     }
     public Result HelloWorld() {
-        return ok("Hello World!");
+        return ok("Hello World! This is my play project");
     }
 
 
